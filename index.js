@@ -13,3 +13,6 @@ videoElem.setAttribute("height", "100");
 //inssert
 const parentNode = audioButton.parentElement.parentElement
 parentNode.appendChild(videoElem);
+
+const payButton = document.querySelector(".bc-button-player");
+payButton.remove()
