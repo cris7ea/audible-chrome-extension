@@ -11,8 +11,9 @@ videoElem.setAttribute("width", "400");
 videoElem.setAttribute("height", "100");
 
 //inssert
-const parentNode = audioButton.parentElement.parentElement
+const parentNode = audioButton.parentElement.parentElement;
 parentNode.appendChild(videoElem);
 
+//remove audible pay button
 const payButton = document.querySelector(".bc-button-player");
-payButton.remove()
+payButton.remove();

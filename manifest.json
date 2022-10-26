@@ -2,10 +2,8 @@
   "name": "Audible Play",
   "version": "1.0",
   "description": "Add audio player with book sample to audible.com",
-  "manifest_version": 2,
-  "permissions": [
-    "activeTab"
-  ],
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["https://www.audible.com/pd/*"],
