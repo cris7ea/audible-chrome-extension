@@ -9,6 +9,7 @@ videoElem.type = "audio/mpeg";
 videoElem.controls = true;
 videoElem.setAttribute("width", "400");
 videoElem.setAttribute("height", "100");
+videoElem.setAttribute("style", "margin-top: 10px;");
 
 //inssert
 const parentNode = audioButton.parentElement.parentElement;
