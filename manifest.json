@@ -1,7 +1,7 @@
 {
-  "name": "Audible Play",
+  "name": "Audible Play Controls",
   "version": "1.0",
-  "description": "Add audio player with book sample to audible.com",
+  "description": "Add audio player for book sample on audible.com",
   "manifest_version": 3,
   "permissions": ["activeTab"],
   "content_scripts": [
